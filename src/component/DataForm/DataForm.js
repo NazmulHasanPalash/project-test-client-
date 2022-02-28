@@ -47,7 +47,7 @@ const DataForm = () => {
     }
     return (
         <div onSubmit={handleAddUser}>
-            <form className="appointment-form w-75 mx-auto my-auto text-center" >
+            <form className="appointment-form w-75 mx-auto my-5 text-center" >
 
                 <input className="mx-auto" type="text" placeholder="First Name" ref={FirstNameRef} />
                 <input className="mx-auto" type="text" placeholder="Last Name" ref={LastNameRef} />

@@ -9,10 +9,10 @@ const Home = () => {
     }, [])
     return (
         <div>
-            <table className="table w-100 mx-auto">
+            <table className="table container-fluid">
 
 
-                <thead>
+                <thead className="w-100">
                     <tr>
                         <th scope="col">First Name</th>
                         <th scope="col">Last Name</th>
@@ -21,18 +21,16 @@ const Home = () => {
                         <th scope="col">Gender</th>
                     </tr>
                 </thead>
-                <tbody >
-                    <tr>
+                <tbody className="w-100">
 
-                    </tr>
                     {
                         data.map(order =>
-                            <tr>
-                                <td>{order.FirstName}</td>
-                                <td>{order.LastName}</td>
-                                <td>{order.email}</td>
-                                <td>{order.age}</td>
-                                <td>{order.gender}</td>
+                            <tr className="container-fluid w-100 ">
+                                <td className="col">{order.FirstName}</td>
+                                <td className="col">{order.LastName}</td>
+                                <td className="col">{order.email}</td>
+                                <td className="col">{order.age}</td>
+                                <td className="col">{order.gender}</td>
                             </tr>
 
                         )
@@ -46,7 +44,7 @@ const Home = () => {
             </table>
 
 
-        </div>
+        </div >
     );
 };
 
