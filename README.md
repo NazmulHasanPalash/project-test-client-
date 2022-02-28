@@ -1,6 +1,6 @@
 # Project-test-client-site
 Live site https://modest-austin-57e163.netlify.app/dataForm.
-Server-site: https://github.com/NazmulHasanPalash/project-test-server
+- Server-site: https://github.com/NazmulHasanPalash/project-test-server
 #### Website details
 - Website based on user data collection 
 - User can provide the dat from UI to database 
