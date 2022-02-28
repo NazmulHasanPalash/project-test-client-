@@ -1,7 +1,6 @@
 # Project-test-client-site
-
-This project was bootstrapped with [Create React App](https://modest-austin-57e163.netlify.app/dataForm).
-
+Live site https://modest-austin-57e163.netlify.app/dataForm.
+Server-site: https://github.com/NazmulHasanPalash/project-test-server
 #### Website details
 - Website based on user data collection 
 - User can provide the dat from UI to database 
